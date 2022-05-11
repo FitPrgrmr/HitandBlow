@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private final static String TAG = "MainActivity";
-    private final static int N = 4;
+    private final static int N = 4;//variable name does not follow good programming practices,
 
     private final static int[] GUESS_DIGITS = {
             R.id.guess_digit_0, R.id.guess_digit_1, R.id.guess_digit_2, R.id.guess_digit_3
